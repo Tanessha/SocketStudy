@@ -80,9 +80,6 @@ s.connect(('localhost',8000))
 while True: 
     print(s.recv(1024).decode()) 
     s.send("Acknowledgement Recived".encode()) 
-6. Stop the program
- s.bind(('localhost',8000))
- Type your text
 ```
 ## OUTPUT:
 ![Screenshot 2024-05-16 133729](https://github.com/Tanessha/SocketStudy/assets/140876194/c53b4925-948d-42b7-8733-6873de419328)
